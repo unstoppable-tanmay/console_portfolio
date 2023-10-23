@@ -175,7 +175,7 @@ Portfolio           it is my personal portfoli designed and created
                 await sleep(100);
             }
         }
-        window.location('https://drive.google.com/file/d/1aGShas8GkM-EK7i6sM_MnbzxyoM3kKMk/view?usp=sharing');
+        window.location('https://unstoppable-tanmay.github.io/resume');
         static.innerText += "Downloaded" + '\n' + startcode;
     }
     else if (code === "vim readme.md") {
@@ -184,7 +184,7 @@ Portfolio           it is my personal portfoli designed and created
         ~ readme.txt
 
         This is my website.
-        if you want tomake a website you can contact me.
+        if you want to make a website you can contact me.
         follow me on my social media account.
 
         all commands are in between help command.
@@ -206,7 +206,7 @@ Portfolio           it is my personal portfoli designed and created
         window.open('https://www.facebook.com/tanmay.panda.16100', '_blank');
     }
     else if (code === "switch") {
-        window.open('https://github.com/unstoppable-tanmay/portfolio', '_self');
+        window.open('https://tanmay-kumar.netlify.app/', '_self');
     }
     else {
         static.innerHTML += `"${prevcmd}" is not a valid command...`;
